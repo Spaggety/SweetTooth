@@ -1,2 +1,4 @@
 # SweetTooth
-Send a distress sigmal through bluetooth
+Send a distress signal through bluetooth
+
+and stuff
