@@ -92,7 +92,7 @@ public class Main2Activity extends AppCompatActivity {
             Toast toast2 = Toast.makeText(getApplicationContext(), " ", Toast.LENGTH_LONG);
             toast2.show();
             TextView tv = (TextView) findViewById(R.id.textView);
-            tv.setText("Person near by: app. 32 feet radius");
+            tv.setText("Person near by:\napproximately 32 feet radius");
 //            Message message = Bridgefy.createMessage(device.getUserId(),data);
 //            device.sendMessage(new HashMap<String, Object>() {{put("1","Hello");}});
         }
