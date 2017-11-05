@@ -46,9 +46,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
-    public void startBridgefy(View view){
+    public void onClickStartBridgefy(View view){
         Bridgefy.initialize(getApplicationContext(), "81637191-6bd6-46ab-a47a-cb5401638146", registrationListener);
     }
 
