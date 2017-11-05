@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.bridgefy/android-sdk/1.0.+/1.0.+.iml" filepath="$PROJECT_DIR$/com.bridgefy/android-sdk/1.0.+/1.0.+.iml" />
       <module fileurl="file://$PROJECT_DIR$/SweetTooth.iml" filepath="$PROJECT_DIR$/SweetTooth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SweetTooth.iml" filepath="$PROJECT_DIR$/SweetTooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.bridgefy/android-sdk/android-sdk.iml" filepath="$PROJECT_DIR$/com.bridgefy/android-sdk/android-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.bridgefy/com.bridgefy.iml" filepath="$PROJECT_DIR$/com.bridgefy/com.bridgefy.iml" />
     </modules>
   </component>
 </project>

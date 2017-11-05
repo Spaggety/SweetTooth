@@ -4,6 +4,10 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-feature android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
 
     <application
@@ -19,10 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="com.bridgefy.sdk.API_KEY"
+                android:value="81637191-6bd6-46ab-a47a-cb5401638146"/>
         </activity>
-        <service
-            android:name="com.example.leeon.sweettoothv1.ble.BluetoothLeService"
-            android:enabled="true"/>
 
     </application>
 

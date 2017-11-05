@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/com.bridgefy" />
+            <option value="$PROJECT_DIR$/com.bridgefy/android-sdk" />
+            <option value="$PROJECT_DIR$/com.bridgefy/android-sdk/1.0.+" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
