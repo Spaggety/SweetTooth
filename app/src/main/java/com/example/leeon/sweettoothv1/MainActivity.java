@@ -21,6 +21,12 @@ import com.bridgefy.sdk.client.StateListener;
 import java.util.HashMap;
 import java.util.Map;
 
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+
 public class MainActivity extends AppCompatActivity {
 
     public HashMap<String, Object> data = new HashMap<>();
@@ -73,5 +79,9 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    public void newPage(View view) {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
+    }
 }
 
