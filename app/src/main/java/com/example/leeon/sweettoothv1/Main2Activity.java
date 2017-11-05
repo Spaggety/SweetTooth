@@ -89,12 +89,11 @@ public class Main2Activity extends AppCompatActivity {
             Toast toast = Toast.makeText(getApplicationContext(), "Connected", Toast.LENGTH_SHORT);
             toast.show();
             isConnectedToOtherPhone2 = true;
-            Toast toast2 = Toast.makeText(getApplicationContext(), " ", Toast.LENGTH_LONG);
-            toast2.show();
             TextView tv = (TextView) findViewById(R.id.textView);
             tv.setText("Person near by:\napproximately 32 feet radius");
 //            Message message = Bridgefy.createMessage(device.getUserId(),data);
 //            device.sendMessage(new HashMap<String, Object>() {{put("1","Hello");}});
+            startBridgefy();
         }
         public void onDeviceLost(Device device){
             Toast toast = Toast.makeText(getApplicationContext(), "Device Lost", Toast.LENGTH_SHORT);
