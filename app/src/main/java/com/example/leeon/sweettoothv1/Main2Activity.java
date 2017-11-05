@@ -18,7 +18,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     protected void counter(int a){
-        String stringy = " ahsdas";
+        String stringy = "ahsdas";
         TextView help = (TextView) findViewById(textView);
         help.setText(stringy);
 
