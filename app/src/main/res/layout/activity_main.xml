@@ -33,6 +33,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_button"
+        android:onClick="startBridgefy"
         android:text="Help"
         android:textSize="33sp"
         app:layout_constraintBottom_toTopOf="@+id/scanerButton"
